@@ -1,0 +1,14 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "es:*"
+      ],
+      "Resource": [
+        "arn:aws:es:ap-east-1:202329666608:domain/demo/*"
+      ]
+    }
+  ]
+}
